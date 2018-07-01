@@ -200,6 +200,18 @@ void setup() {
     // devices' ping slots. LMIC does not have an easy way to define set this
     // frequency and support for class B is spotty and untested, so this
     // frequency is not configured here.
+
+    // Disable channels for testing on 1ch gateways uncomment the channels you dont use on your 1ch gateway.
+    //LMIC_disableChannel(0);    
+    //LMIC_disableChannel(1);
+    //LMIC_disableChannel(2);
+    //LMIC_disableChannel(3);
+    //LMIC_disableChannel(4);
+    //LMIC_disableChannel(5);
+    //LMIC_disableChannel(6);
+    //LMIC_disableChannel(7);
+    //LMIC_disableChannel(8);    
+    
     #elif defined(CFG_us915)
     // NA-US channels 0-71 are configured automatically
     // but only one group of 8 should (a subband) should be active
