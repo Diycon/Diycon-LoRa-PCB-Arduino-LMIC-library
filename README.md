@@ -9,9 +9,9 @@ const lmic_pinmap lmic_pins = {
 	    .rst = 0,
 	    .dio = {7, 8, 9},
 	};</pre>
-The library is works with this breakoutboard PCB
-<img src="https://diycon.nl/wp-content/uploads/2017/09/pcb-layout-fin.jpg">
-<a href="https://diycon.nl/portfolio/make-a-lora-node/">Click here</a> for more information about the PCB
+The library is works with this breakoutboard PCB v.202 and v203 visit https://diycon.nl for more information
+<img src="https://diycon.nl/wp-content/uploads/2018/08/RF_PCB_V203_front-1024x1024.jpg">
+<a href="https://diycon.nl/archives/portfolio/getting-started-lora-node-v2-03/">Click here</a> for more information about the PCB
 <br />
 
 Arduino-LMIC library
